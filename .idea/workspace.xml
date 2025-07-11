@@ -3,16 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="dd661751-8b93-46f4-b2f4-3a74d1423c6e" name="Changes" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Custom_Keywords/Generics.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Custom_Keywords/Generics.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/BaseTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaseTest.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Resources/Keywords/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Keywords/LoginKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Resources/Locators/LoginLocators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Locators/LoginLocators.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/Test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/Forgot_Password.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
