@@ -2,7 +2,7 @@
 
 # QA Environment URLs
 ${LOGIN_URL}         https://opensource-demo.orangehrmlive.com/
-${DASHBOARD_URL}     https://example.com/dashboard
+${DASHBOARD_URL}     https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
 
 # User Credentials
 ${VALID_USERNAME}    Admin

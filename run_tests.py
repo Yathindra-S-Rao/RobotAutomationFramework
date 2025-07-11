@@ -7,7 +7,7 @@ import sys
 def run_robot_test(test_suite):
     robot_command = [
         'robot',  # Calling Robot Framework
-        '--outputdir', '/Reports',  # Specify where to save the report
+        '--outputdir', '/Results',  # Specify where to save the report
         '--log', 'log.html',  # Specify the name of the log file
         '--report', 'report.html',  # Specify the name of the report file
         '--xunit', 'xunit.xml',  # If you need the xUnit result format

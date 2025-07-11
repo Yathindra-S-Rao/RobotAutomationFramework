@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd661751-8b93-46f4-b2f4-3a74d1423c6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Library/Custom_Keywords/Generics.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Resources/Keywords/LoginKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/Test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/Test.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Resources/Locators/LoginLocators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Locators/LoginLocators.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Resources/Variables/EnvironmentVariables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaseTest.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Resources/Variables/GlobalVariables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Variables/GlobalVariables.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/Login_Test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/Login_Test.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/selenium-screenshot-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,5 +96,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
