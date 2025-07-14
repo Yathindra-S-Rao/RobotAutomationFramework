@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd661751-8b93-46f4-b2f4-3a74d1423c6e" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/Keywords/MyInfoKeywords.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Locators/MyInfoLocators.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Regression/MyInfo.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Custom_Keywords/Generics.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Custom_Keywords/Generics.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Resources/Keywords/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Keywords/LoginKeywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Resources/Locators/LoginLocators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Locators/LoginLocators.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Resources/Variables/GlobalVariables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Variables/GlobalVariables.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/Login_Test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/Login_Test.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Resources/Keywords/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Keywords/LoginKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Resources/Locators/LoginLocators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Locators/LoginLocators.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Resources/Variables/GlobalVariables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Variables/GlobalVariables.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/Forgot_Password.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/ForgotPassword.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/Login_Test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/LoginTest.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +41,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Python\Robot_TestAutomationFramework\Tests\Smoke" />
+      <recent name="E:\Python\Robot_TestAutomationFramework\Library" />
       <recent name="E:\Python\Robot_TestAutomationFramework" />
+      <recent name="E:\Python\Robot_TestAutomationFramework\Tests\Smoke" />
       <recent name="E:\Python\Robot_TestAutomationFramework\Tests" />
     </key>
   </component>
