@@ -13,8 +13,8 @@ ${BROWSER}           Chrome
 ${HEADLESS}          True
 
 # Timeouts
-${IMPLICIT_WAIT}     5s
-${PAGE_LOAD_TIMEOUT} 10s
+#${IMPLICIT_WAIT}     5s
+#${PAGE_LOAD_TIMEOUT} 10s
 
 # Reusable messages or system flags
 ${ENV}               QA

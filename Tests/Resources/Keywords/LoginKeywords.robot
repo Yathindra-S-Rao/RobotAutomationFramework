@@ -10,15 +10,13 @@ ${SUCCESS_MAIL_MESSAGE}     Reset Password link sent successfully
 
 *** Keywords ***
 Enter Valid Username
-    wait until element is visible  ${USERNAME_FIELD}
-    input text  ${USERNAME_FIELD}   ${VALID_USERNAME}
+    Enter Page Text     ${USERNAME_FIELD}   ${VALID_USERNAME}   Username textbox
 
 Enter Valid Password
-    wait until element is visible  ${PASSWORD_FIELD}
-    input password  ${PASSWORD_FIELD}   ${VALID_PASSWORD}
+    Enter Page Password  ${PASSWORD_FIELD}   ${VALID_PASSWORD}   Password textbox
 
 Click Login Button
-    click button  ${LOGIN_BUTTON}
+    click page button  ${LOGIN_BUTTON}   Login Button
 
 Verify Dashboard
     wait until location contains   dashboard
@@ -26,12 +24,10 @@ Verify Dashboard
     should be equal as strings  ${current_url}  ${dashboard_url}
 
 Enter Invalid Username
-    wait until element is visible  ${USERNAME_FIELD}
-    input text  ${USERNAME_FIELD}   something
+    Enter Page Text  ${USERNAME_FIELD}   something  Username textbox
 
 Enter Invalid Password
-    wait until element is visible  ${PASSWORD_FIELD}
-    input password  ${PASSWORD_FIELD}   something
+    Enter Page Password  ${PASSWORD_FIELD}   something  Password textbox
 
 Verify Error Message
     wait until element is visible   ${LOGIN_ERROR_MSG}
@@ -39,10 +35,10 @@ Verify Error Message
     should be equal as strings  ${err}  Invalid credentials
 
 Click Forgot Password
-    click_button    ${FORGOT_PASSWORD}  Forgot Password
+    Click Page Element       ${FORGOT_PASSWORD}      Forgot Password button
 
 Click Reset Password
-    click_button    ${RESET_PASSWORD}   Reset Password
+    click page button       ${RESET_PASSWORD}       Reset Password button
 
 Verify Mail Link Message
     page should contain     ${success_mail_message}

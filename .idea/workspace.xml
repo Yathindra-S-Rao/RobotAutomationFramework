@@ -7,10 +7,10 @@
       <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/BaseTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaseTest.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Resources/Keywords/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Keywords/LoginKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Resources/Locators/LoginLocators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Locators/LoginLocators.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/Test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/Forgot_Password.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Resources/Variables/GlobalVariables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Resources/Variables/GlobalVariables.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Smoke/Login_Test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/Login_Test.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
