@@ -1,9 +1,10 @@
 *** Settings ***
 Resource        ../BaseTest.robot
-Resource        ../Resources/Keywords/LoginKeywords.robot
-Resource        ../Resources/Keywords/MyInfoKeywords.robot
+Resource        ../../Keywords/LoginKeywords.robot
+Resource        ../../Keywords/MyInfoKeywords.robot
 Test Setup      Test Setup
 Test Teardown   Test Teardown
+
 
 *** Test Cases ***
 Add My Info

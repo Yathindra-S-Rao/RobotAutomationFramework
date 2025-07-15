@@ -1,8 +1,8 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource  ../../../Library/Custom_Keywords/Generics.robot
-Resource  ../Locators/LoginLocators.robot
-Resource  ../Variables/GlobalVariables.robot
+Resource  ../Library/Custom_Keywords/Generics.robot
+Resource  ../Resources/Locators/LoginLocators.robot
+Resource  ../Library/Variables/GlobalVariables.robot
 
 
 *** Variables ***
@@ -35,11 +35,12 @@ Verify Error Message
     should be equal as strings  ${err}  Invalid credentials
 
 Click Forgot Password
-    Click Page Element       ${FORGOT_PASSWORD}      Forgot Password button
+    Click Page Element      ${FORGOT_PASSWORD}      Forgot Password button
 
 Click Reset Password
     click page button       ${RESET_PASSWORD}       Reset Password button
 
 Verify Mail Link Message
-    page should contain     ${success_mail_message}
+    wait until page contains    ${success_mail_message}
+    page should contain         ${success_mail_message}
 

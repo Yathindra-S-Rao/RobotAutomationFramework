@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource    Resources/Variables/GlobalVariables.robot
+Resource    ../Library/Variables/GlobalVariables.robot
 
 *** Keywords ***
 

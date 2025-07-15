@@ -1,6 +1,6 @@
 *** Variables ***
-${MYINFO_MENU}              xpath=//a//span[text()='My Info']
-${LHS_PERSONAL_DETAILS}     linktext=Personal Details
+${MYINFO_MENU}              xpath=//a//span[text()='My Info']//ancestor::li
+${LHS_PERSONAL_DETAILS}     //a[text()='Personal Details']
 ${FIRSTNAME}                name=firstName
 ${MIDDLENAME}               name=middleName
 ${LASTNAME}                 name=lastName
