@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dd661751-8b93-46f4-b2f4-3a74d1423c6e" name="Changes" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keywords/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Keywords/LoginKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Keywords/MyInfoKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Keywords/MyInfoKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Custom_Keywords/Generics.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Custom_Keywords/Generics.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Locators/MyInfoLocators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Locators/MyInfoLocators.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/BaseTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaseTest.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Regression/MyInfo.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Regression/MyInfo.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/ForgotPassword.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/ForgotPassword.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Smoke/LoginTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Smoke/LoginTest.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,5 +125,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_tests.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

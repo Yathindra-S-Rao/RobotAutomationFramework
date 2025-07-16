@@ -13,16 +13,28 @@ Click Personal Details
     Click Page Element      ${LHS_PERSONAL_DETAILS}     Personal Details LHS option
 
 Enter Firstname
-    Enter Page Text         ${FIRSTNAME}        Yathindra       Firstname
+    Clear Text              ${FIRSTNAME}        Firstname
+    Enter Page Text         ${FIRSTNAME}        Raveena         Firstname
 
 Enter Middlename
-    Enter Page Text         ${MIDDLENAME}       S       Middlename
+    Clear Text              ${MIDDLENAME}       Middlename
+    Enter Page Text         ${MIDDLENAME}       K S             Middlename
 
 Enter Lastname
-    Enter Page Text         ${LASTNAME}        Rao       Lastname
+    Clear Text              ${LASTNAME}         Lastname
+    Enter Page Text         ${LASTNAME}         Kolige          Lastname
 
 Select Nationality
 
 Select Marital Status
+
 Select Gender
+    Click Page Element      ${FEMALE}           Female
+
+Add Attachments
+    Click Page Button       ${ADD}              Add
+    Upload Files            ${FILE_UPLOAD}      test.png
+    Click Page Button       ${CUSTOM_SAVE}      Custom Save
+
 Click Save
+    Click Page Button       ${SAVE}             *Save

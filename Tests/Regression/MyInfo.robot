@@ -18,7 +18,8 @@ Add My Info
     Enter Firstname
     Enter Middlename
     Enter Lastname
-    Select Nationality
-    Select Marital Status
+#    Select Nationality
+#    Select Marital Status
     Select Gender
+    Add Attachments
     Click Save
