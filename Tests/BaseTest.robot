@@ -1,13 +1,14 @@
 *** Settings ***
 Library     SeleniumLibrary
+Library     DateTime
 Resource    ../Library/Variables/GlobalVariables.robot
 
 *** Keywords ***
-
 Test Setup
     Open Browser    ${LOGIN_URL}    ${BROWSER}
     Maximize Browser Window
 
 Test Teardown
-    Capture Page Screenshot
+    ${today}=    Get Current Date    result_format=%d%m%y_%H%M%S
+    Capture Page Screenshot         ${OUTPUT_DIR}/Screenshots/TearDown_${today}.png
     Close All Browsers

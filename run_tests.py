@@ -29,7 +29,7 @@ def parse_argument():
     parser.add_argument(
         '--suite',
         type=str,
-        default='Tests/Smoke',
+        default='Tests/Regression',
         help='Directory containing Robot Framework test suite'
     )
 

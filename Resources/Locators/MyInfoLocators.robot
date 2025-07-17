@@ -9,6 +9,6 @@ ${FEMALE}                   xpath=//input[@value='2']//parent::label
 ${NATIONALITY_DD}           xpath=//label[text()='Nationality']//parent::div//following-sibling::div
 ${MARITAL_STATUS_DD}        xpath=//label[text()='Marital Status']//parent::div//following-sibling::div
 ${ADD}                      xpath=//button[text()=' Add ']
-${FILE_UPLOAD}              xpath=//input[@type='file']
+${FILE_UPLOAD}              xpath=//label[text()='Select File']//ancestor::div//input[@type='file']
 ${SAVE}                     xpath=(//button[text()=' Save '])[position()=1]
 ${CUSTOM_SAVE}              xpath=(//button[text()=' Save '])[position()=2]

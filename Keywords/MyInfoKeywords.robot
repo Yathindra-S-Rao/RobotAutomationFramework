@@ -32,6 +32,7 @@ Select Gender
     Click Page Element      ${FEMALE}           Female
 
 Add Attachments
+    SCROLL TO EXTREAM BOTTOM
     Click Page Button       ${ADD}              Add
     Upload Files            ${FILE_UPLOAD}      test.png
     Click Page Button       ${CUSTOM_SAVE}      Custom Save

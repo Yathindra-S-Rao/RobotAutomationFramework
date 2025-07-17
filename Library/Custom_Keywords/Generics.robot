@@ -1,5 +1,6 @@
 *** Settings ***
-Library  SeleniumLibrary
+Library     SeleniumLibrary
+Resource    ../Variables/GlobalVariables.robot
 
 *** Variables ***
 ${dd_options}      xpath=//div[@role='option']//span[text()=' ']
@@ -51,8 +52,8 @@ Enter Page Password
 Upload Files
     [Documentation]                 Kindly place the file to be uploaded under the folder Library/Upload_Files
     [Arguments]                     ${element}      ${file_to_upload}
-    wait until element is visible   ${element}
-    scroll element into view        ${element}
+    wait until element is visible   ${element}      ${PAGE_LOAD_TIMEOUT}
+    execute javascript              arguments[0].setAttribute('style', 'display:block');       ${element}
     choose file                     ${element}      ${CURDIR}/../Upload_Files/${file_to_upload}
     log                             Uploaded the file ${file_to_upload}
 
@@ -61,6 +62,17 @@ Select Page Radio Button
     wait until element is visible   ${group_name}
     select radio button             ${group_name}       ${value}
     log                             Selected ${element_name} radio button
+
+Scroll To Extream Bottom
+    [Documentation]         Scrolls vertically till end of the page
+    execute javascript      window.scrollTo(0, document.body.scrollHeight);
+    log                     Scrolled to the extream bottom of the page
+
+Scroll To Page Position
+    [Documentation]         Scrolls to the co-ordinates parsed
+    [Arguments]             ${x-coordinate}     ${y-coordinate}
+    execute javascript      window.scrollTo(${x-coordinate}, ${y-coordinate});
+    log                     Scrolled to the position (${x-coordinate}, ${y-coordinate})
 
 Select Value From Dropdown
     [Arguments]                     ${element}          ${option_value}     ${element_name}
