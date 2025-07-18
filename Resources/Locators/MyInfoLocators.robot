@@ -10,5 +10,6 @@ ${NATIONALITY_DD}           xpath=//label[text()='Nationality']//parent::div//fo
 ${MARITAL_STATUS_DD}        xpath=//label[text()='Marital Status']//parent::div//following-sibling::div
 ${ADD}                      xpath=//button[text()=' Add ']
 ${FILE_UPLOAD}              xpath=//label[text()='Select File']//ancestor::div//input[@type='file']
+${BROWSE}                   class=oxd-file-button
 ${SAVE}                     xpath=(//button[text()=' Save '])[position()=1]
 ${CUSTOM_SAVE}              xpath=(//button[text()=' Save '])[position()=2]

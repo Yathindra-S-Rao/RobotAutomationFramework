@@ -1,0 +1,6 @@
+python==3.7.5
+robotframework==6.0.2
+robotframework-seleniumlibrary
+selenium
+pyautogui==0.9.54
+pillow

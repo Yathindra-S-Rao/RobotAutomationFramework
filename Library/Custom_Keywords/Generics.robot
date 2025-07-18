@@ -1,5 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
+Library     DateTime
+Library     PyAutoGUI
 Resource    ../Variables/GlobalVariables.robot
 
 *** Variables ***
@@ -52,9 +54,16 @@ Enter Page Password
 Upload Files
     [Documentation]                 Kindly place the file to be uploaded under the folder Library/Upload_Files
     [Arguments]                     ${element}      ${file_to_upload}
-    wait until element is visible   ${element}      ${PAGE_LOAD_TIMEOUT}
-    execute javascript              arguments[0].setAttribute('style', 'display:block');       ${element}
+    execute javascript              document.querySelector('input[type="file"]').style.display = 'block';
     choose file                     ${element}      ${CURDIR}/../Upload_Files/${file_to_upload}
+    log                             Uploaded the file ${file_to_upload}
+
+Upload Files From Windows Popup
+    [Documentation]                 Kindly place the file to be uploaded under the folder Library/Upload_Files
+    [Arguments]                     ${element}      ${file_to_upload}       ${element_name}
+    Click Page Element              ${element}      ${element_name}
+    typewrite                       ${CURDIR}/../Upload_Files/${file_to_upload}
+    press keys                      Enter
     log                             Uploaded the file ${file_to_upload}
 
 Select Page Radio Button
@@ -73,6 +82,12 @@ Scroll To Page Position
     [Arguments]             ${x-coordinate}     ${y-coordinate}
     execute javascript      window.scrollTo(${x-coordinate}, ${y-coordinate});
     log                     Scrolled to the position (${x-coordinate}, ${y-coordinate})
+
+Take Page Screenshot
+    [Documentation]             Screenshots will be available under ${OUTPUT_DIR}/Screenshots/
+    [Arguments]                 ${screenshot_name}
+    ${today}=                   Get Current Date    result_format=%d%m%y_%H%M%S
+    capture page screenshot     ${OUTPUT_DIR}/Screenshots/${screenshot_name}_${today}.png
 
 Select Value From Dropdown
     [Arguments]                     ${element}          ${option_value}     ${element_name}

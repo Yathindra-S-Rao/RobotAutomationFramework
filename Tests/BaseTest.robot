@@ -5,6 +5,7 @@ Resource    ../Library/Variables/GlobalVariables.robot
 
 *** Keywords ***
 Test Setup
+    [Documentation]     Opening the ${BROWSER} Browser and Navigating to the ${LOGIN_URL}
     Open Browser    ${LOGIN_URL}    ${BROWSER}
     Maximize Browser Window
 

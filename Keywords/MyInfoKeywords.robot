@@ -6,8 +6,9 @@ Resource    ../Resources/Locators/MyInfoLocators.robot
 
 *** Keywords ***
 Click My Info Menu
-    Mouse Over Element      ${MYINFO_MENU}      My Info menu item
     Click Page Element      ${MYINFO_MENU}      My Info menu item
+    Sleep       3
+    Take Page Screenshot    MyInfo
 
 Click Personal Details
     Click Page Element      ${LHS_PERSONAL_DETAILS}     Personal Details LHS option
@@ -34,7 +35,7 @@ Select Gender
 Add Attachments
     SCROLL TO EXTREAM BOTTOM
     Click Page Button       ${ADD}              Add
-    Upload Files            ${FILE_UPLOAD}      test.png
+    Upload Files From Windows Popup             ${BROWSE}      test.png      Browse to Upload
     Click Page Button       ${CUSTOM_SAVE}      Custom Save
 
 Click Save

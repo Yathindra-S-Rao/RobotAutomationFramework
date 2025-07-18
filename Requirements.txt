@@ -1,2 +1,0 @@
-python==3.7.5
-robotframework==6.0.2
