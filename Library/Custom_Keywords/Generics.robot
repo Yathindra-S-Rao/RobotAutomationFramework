@@ -2,12 +2,23 @@
 Library     SeleniumLibrary
 Library     DateTime
 Library     PyAutoGUI
+Library     OperatingSystem
+Library     BuiltIn
 Resource    ../Variables/GlobalVariables.robot
 
 *** Variables ***
 ${dd_options}      xpath=//div[@role='option']//span[text()=' ']
 
 *** Keywords ***
+Get Element Text
+    [Arguments]     ${element}      ${element_name}
+    Wait Until Element Is Visible   ${element}    timeout=10s
+    ${element_text}=                Get Text       ${element}
+    Log                             Captured the text "${element_text}" from the element "${element_name}"
+    [Return]                        ${element_text}
+
+
+
 Click Page Button
     [Arguments]     ${element}      ${element_name}
     wait until element is visible   ${element}
@@ -63,7 +74,8 @@ Upload Files From Windows Popup
     [Arguments]                     ${element}      ${file_to_upload}       ${element_name}
     Click Page Element              ${element}      ${element_name}
     typewrite                       ${CURDIR}/../Upload_Files/${file_to_upload}
-    press keys                      Enter
+    press                           Enter
+#    press keys                      Enter
     log                             Uploaded the file ${file_to_upload}
 
 Select Page Radio Button
@@ -88,6 +100,7 @@ Take Page Screenshot
     [Arguments]                 ${screenshot_name}
     ${today}=                   Get Current Date    result_format=%d%m%y_%H%M%S
     capture page screenshot     ${OUTPUT_DIR}/Screenshots/${screenshot_name}_${today}.png
+    log                         Screenshot path: ${OUTPUT_DIR}/Screenshots/${screenshot_name}_${today}.png
 
 Select Value From Dropdown
     [Arguments]                     ${element}          ${option_value}     ${element_name}

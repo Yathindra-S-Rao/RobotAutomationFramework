@@ -10,6 +10,10 @@ Click My Info Menu
     Sleep       3
     Take Page Screenshot    MyInfo
 
+Get Header Name
+    ${text}=    Get Element Text    //span[@class="oxd-topbar-header-breadcrumb"]//h6       Header of the Page
+    should be equal as strings      ${text}      PIM
+
 Click Personal Details
     Click Page Element      ${LHS_PERSONAL_DETAILS}     Personal Details LHS option
 

@@ -14,6 +14,7 @@ Add My Info
     Click Login Button
 
     Click My Info Menu
+    Get Header Name
     Click Personal Details
     Enter Firstname
     Enter Middlename
