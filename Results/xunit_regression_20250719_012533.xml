@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Regression" tests="1" errors="0" failures="1" skipped="0" time="32.217" timestamp="2025-07-19T01:25:34.542000">
-<testsuite name="MyInfo" tests="1" errors="0" failures="1" skipped="0" time="32.155" timestamp="2025-07-19T01:25:34.604000">
-<testcase classname="Regression.MyInfo" name="Add My Info" time="31.500">
-<failure message="No keyword with name 'typewrite' found." type="AssertionError"/>
-</testcase>
-</testsuite>
-</testsuite>

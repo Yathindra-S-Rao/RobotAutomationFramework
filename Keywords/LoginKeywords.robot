@@ -44,3 +44,10 @@ Verify Mail Link Message
     wait until page contains    ${success_mail_message}
     page should contain         ${success_mail_message}
 
+Enter Username
+    [Arguments]             ${username}
+    Enter Page Text         ${USERNAME_FIELD}       ${username}     Username
+
+Enter Password
+    [Arguments]             ${password}
+    Enter Page Password     ${PASSWORD_FIELD}       ${password}     Password

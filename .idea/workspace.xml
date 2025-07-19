@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd661751-8b93-46f4-b2f4-3a74d1423c6e" name="Changes" comment="Initial Commit">
+    <list default="true" id="dd661751-8b93-46f4-b2f4-3a74d1423c6e" name="Changes" comment="Added Get Text Keywords">
+      <change afterPath="$PROJECT_DIR$/Library/Custom_Keywords/CustomLibrary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Regression/LoginNegativeTests.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keywords/MyInfoKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Keywords/MyInfoKeywords.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Keywords/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Keywords/LoginKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Custom_Keywords/Generics.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Custom_Keywords/Generics.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Upload_Files/test.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Regression/MyInfo.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Regression/MyInfo.robot" afterDir="false" />
     </list>
@@ -32,9 +35,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python\Robot_TestAutomationFramework\Data" />
       <recent name="E:\Python\Robot_TestAutomationFramework\Library" />
       <recent name="E:\Python\Robot_TestAutomationFramework" />
       <recent name="E:\Python\Robot_TestAutomationFramework\Tests\Smoke" />
@@ -106,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1752205502777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Get Text Keywords">
+      <created>1752933706118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752933706118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added Get Text Keywords" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Get Text Keywords" />
   </component>
 </project>

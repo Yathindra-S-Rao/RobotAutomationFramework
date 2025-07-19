@@ -8,7 +8,7 @@ Test Teardown   Test Teardown
 
 *** Test Cases ***
 Add My Info
-    [Documentation]    Test login with correct username and password.
+    [Documentation]    Test to add My Info
     Enter Valid Username
     Enter Valid Password
     Click Login Button
