@@ -31,7 +31,7 @@ Enter Invalid Password
 
 Verify Error Message
     wait until element is visible   ${LOGIN_ERROR_MSG}
-    ${err}=     get text    ${LOGIN_ERROR_MSG}
+    ${err}=     Get Element Text    ${LOGIN_ERROR_MSG}      Error Message
     should be equal as strings  ${err}  Invalid credentials
 
 Click Forgot Password

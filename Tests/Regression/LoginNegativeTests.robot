@@ -1,5 +1,5 @@
 *** Settings ***
-Library             ../../Keywords/LoginKeywords.robot
+Resource            ../../Keywords/LoginKeywords.robot
 Library             DataDriver      ../../Data/Test_Data/Data.xlsx      sheet_name=Invalid_Login_Credentials
 Resource            ../BaseTest.robot
 Suite Setup         Test Setup
@@ -8,7 +8,7 @@ Test Template       Verify Invalid Login
 
 *** Test Cases ***
 
-Login Test With Invalid Credentials ${usernmae} and ${password}
+Login Test With Invalid Credentials ${username} and ${password}
 
 *** Keywords ***
 Verify Invalid Login
