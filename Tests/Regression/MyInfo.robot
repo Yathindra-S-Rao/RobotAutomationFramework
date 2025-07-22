@@ -2,18 +2,21 @@
 Resource        ../BaseTest.robot
 Resource        ../../Keywords/LoginKeywords.robot
 Resource        ../../Keywords/MyInfoKeywords.robot
-Library         DataDriver      ../../Data/Test_Data/MyInfo.xlsx     sheet_name=MyInfo      dd_kwargs=True
+#Library         DataDriver      ../../Data/Test_Data/MyInfo.csv      dd_kwargs=True
+Library         DataDriver      ../../Data/Test_Data/MyInfo.xlsx        dd_kwargs=True
 Test Setup      Test Setup
 Test Teardown   Test Teardown
 Test Template   Add My Info
 
 *** Test Cases ***
-Test Add My Info    ${username}
+Test Add My Info
 
 *** Keywords ***
 Add My Info
-    [Arguments]     &{kwargs}
-    log many        ${kwargs}
+    [Arguments]         &{kwargs}
+    log many            ${kwargs}
+    Log To Console      Executing test for user: ${kwargs.username}
+
 
     Enter Username      ${kwargs.username}
     Enter Password      ${kwargs.password}

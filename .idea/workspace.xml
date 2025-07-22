@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dd661751-8b93-46f4-b2f4-3a74d1423c6e" name="Changes" comment="Added Get Text Keywords">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Test_Data/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Test_Data/Data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keywords/LoginKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Keywords/LoginKeywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Regression/LoginNegativeTests.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Regression/LoginNegativeTests.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/BaseTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaseTest.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Regression/MyInfo.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Regression/MyInfo.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
