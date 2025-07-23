@@ -13,7 +13,8 @@ Test Add My Info
 
 *** Keywords ***
 Add My Info
-    [Arguments]         &{kwargs}
+    [Tags]              regression
+    [Arguments]         ${kwargs}
     log many            ${kwargs}
     Log To Console      Executing test for user: ${kwargs.username}
 

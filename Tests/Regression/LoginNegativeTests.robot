@@ -9,10 +9,11 @@ Test Template       Verify Invalid Login
 *** Test Cases ***
 
 Login Test With Invalid Credentials ${username} and ${password}
+    [Tags]              regression
 
 *** Keywords ***
 Verify Invalid Login
-    [Documentation]    Test login with incorrect username and password.
+    [Documentation]     Test login with incorrect username and password.
     [Arguments]         ${username}     ${password}
     Enter Username      ${username}
     Enter Password      ${password}
