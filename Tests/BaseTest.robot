@@ -6,8 +6,11 @@ Resource    ../Library/Variables/GlobalVariables.robot
 *** Keywords ***
 Test Setup
     [Documentation]     Opening the ${BROWSER} Browser and Navigating to the ${LOGIN_URL}
-    Set Log Level       DEBUG
-    Open Browser        ${LOGIN_URL}    ${BROWSER}
+    IF      ${HEADLESS}
+        Open Browser        ${LOGIN_URL}        ${HEADLESS_CHROME}
+    ELSE
+        Open Browser        ${LOGIN_URL}        ${BROWSER}
+    END
     Maximize Browser Window
 
 Test Teardown

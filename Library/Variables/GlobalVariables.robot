@@ -11,6 +11,7 @@ ${VALID_PASSWORD}       admin123
 # Browser Configuration
 ${BROWSER}              Chrome
 ${HEADLESS}             True
+${HEADLESS_CHROME}      headlesschrome
 
 # Timeouts
 #${IMPLICIT_WAIT}       5s
