@@ -10,7 +10,7 @@ ${VALID_PASSWORD}       admin123
 
 # Browser Configuration
 ${BROWSER}              Chrome
-${HEADLESS}             True
+${HEADLESS}             False
 ${HEADLESS_CHROME}      headlesschrome
 
 # Timeouts

@@ -5,3 +5,4 @@ robotframework-seleniumlibrary
 robotframework-datadriver[xls]
 pyautogui==0.9.54
 pillow
+robotframework-pabot==4.3.2
