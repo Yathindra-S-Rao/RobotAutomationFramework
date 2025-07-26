@@ -1,0 +1,6 @@
+datasources:4c37686e0669b60af1d92470306e99285c45d027
+commandlineoptions:e9c77f6383d5a713f674f40badbf49b60f93c46a
+suitesfrom:no-suites-from-option
+file:3c500f8781ba7fa3a749817a906f7a8e070a8c20
+--suite Regression.LoginNegativeTests
+--suite Regression.MyInfo
