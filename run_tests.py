@@ -2,7 +2,7 @@ import argparse
 import datetime
 import subprocess
 import os
-from Library.Variables.Config import PROCESS_COUNT
+from Library.Variables.Config import PROCESS_COUNT, TEST_SUITE
 
 
 def run_robot_test(test_suite, processes):
@@ -32,7 +32,7 @@ def parse_argument():
     parser.add_argument(
         '--suite',
         type=str,
-        default='Tests/Regression',
+        default=f'Tests/{TEST_SUITE}',
         help='Directory containing Robot Framework test suite'
     )
 
